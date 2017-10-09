@@ -2,6 +2,7 @@
     "name": "alexplekhanov/laravel-webserver-config-generator",
     "description": "Webserver config generator for Laravel projects",
     "type": "project",
+    "license": "MIT",
     "support": {
         "issues": "https://github.com/alexplekhanov/Laravel-Webserver-Config-Generator/issues",
         "source": "https://github.com/alexplekhanov/Laravel-Webserver-Config-Generator"
@@ -12,7 +13,6 @@
     "require-dev": {
         "phpunit/phpunit": "~6.4"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Alexey Plekhanov",
