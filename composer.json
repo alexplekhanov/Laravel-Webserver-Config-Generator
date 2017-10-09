@@ -1,0 +1,27 @@
+{
+    "name": "alexplekhanov/laravel-webserver-config-generator",
+    "description": "Webserver config generator for Laravel projects",
+    "type": "project",
+    "support": {
+        "issues": "https://github.com/alexplekhanov/Laravel-Webserver-Config-Generator/issues",
+        "source": "https://github.com/alexplekhanov/Laravel-Webserver-Config-Generator"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Plekhanov",
+            "email": "alex@plekhanov.us"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
