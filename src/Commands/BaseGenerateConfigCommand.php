@@ -28,7 +28,7 @@ abstract class BaseGenerateConfigCommand extends Command
             throw new RuntimeException('Unknown issue with filesystem.');
         }
         
-        return $currentWorkingDirectory . $this->filename;
+        return $currentWorkingDirectory . '/' . $this->filename;
     }
     
     /**
@@ -42,5 +42,15 @@ abstract class BaseGenerateConfigCommand extends Command
         if (is_dir($outputFile) || is_file($outputFile)) {
             throw new RuntimeException("File [{$outputFile}] already exists!");
         }
+    }
+    
+    /**
+     * Get stub file contents.
+     *
+     * @return string
+     */
+    protected function getStub(): string
+    {
+        return file_get_contents(__DIR__ . "/../stubs/{$this->filename}.stub");
     }
 }
