@@ -35,7 +35,7 @@ class GenerateNginxConfigCommand extends BaseGenerateConfigCommand
             ->addOption('force', null, InputOption::VALUE_NONE, 'Forces generation even if the output file already exists');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output): void
+    protected function execute(InputInterface $input, OutputInterface $output)
     {
         $outputFile = $this->getOutputFilename($input);
 
@@ -68,7 +68,7 @@ class GenerateNginxConfigCommand extends BaseGenerateConfigCommand
         );
     }
 
-    protected function writeOutputToFile($string, $file): void
+    protected function writeOutputToFile($string, $file)
     {
         $result = file_put_contents($file, $string);
         
