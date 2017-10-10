@@ -2,7 +2,6 @@
 
 namespace Tests;
 
-use Symfony\Component\Console\Tester\CommandTester;
 use PHPUnit\Framework\TestCase;
 
 class GenerateNginxConfigCommandTest extends TestCase
