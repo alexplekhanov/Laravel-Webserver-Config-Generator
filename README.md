@@ -1,1 +1,1 @@
-# Laravel-Webserver-Config-Generator
+# Laravel Webserver Config Generator

@@ -2,9 +2,9 @@
 
 namespace Plekhanov\LaravelWebserverConfigGenerator\Commands;
 
+use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
-use RuntimeException;
 
 abstract class BaseGenerateConfigCommand extends Command
 {
